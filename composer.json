@@ -1,0 +1,10 @@
+{
+    "name": "ian/pizzariaphp",
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/mailer": "^6.3"
+    },
+    "autoload":{
+        "files":["app/functions/whitchpage.php", "app/db.php"]
+    }
+}
